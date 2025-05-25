@@ -36,7 +36,7 @@ management:
     health:
       show-details: always
 #Resilience 4j Circuit Breaker Configurations
-# resilience4j:
+resilience4j:
 #   circuitbreaker:
 #     instances:
 #       ratingHotelCircuitBreaker: 
