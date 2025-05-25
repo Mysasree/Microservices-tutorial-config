@@ -55,6 +55,7 @@ resilience4j:
     #     ratingHotelRetry: 
     #       max-attempts: 3
     #       wait-duration: 5s
+#Resilience 4j Rate Limiter Configurations
       ratelimiter:
         instances:
           ratingHotelRateLimiter: 
